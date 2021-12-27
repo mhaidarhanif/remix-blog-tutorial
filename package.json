@@ -7,7 +7,7 @@
     "build": "remix build",
     "dev": "remix dev",
     "postinstall": "remix setup node",
-    "start": "remix-serve build"
+    "start:dev": "remix-serve api/_build"
   },
   "dependencies": {
     "@remix-run/react": "^1.1.1",
